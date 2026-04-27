@@ -1,0 +1,6 @@
+```
+# Compiled and build artifacts
+*.o
+*.obj
+dmemcg-booster
+```
