@@ -1,0 +1,7 @@
+[package]
+name = "dmemcg-booster"
+version = "0.1.2"
+edition = "2024"
+
+[dependencies]
+dbus = "0.9.10"

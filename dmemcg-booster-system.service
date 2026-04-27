@@ -1,0 +1,8 @@
+[Unit]
+Description=Service for enabling and controlling dmem cgroup limits for boosting foreground games, system-level
+
+[Service]
+ExecStart=/usr/bin/dmemcg-booster --use-system-bus
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,8 @@
+[Unit]
+Description=Service for enabling and controlling dmem cgroup limits for boosting foreground games, user-level
+
+[Service]
+ExecStart=/usr/bin/dmemcg-booster
+
+[Install]
+WantedBy=graphical-session-pre.target
