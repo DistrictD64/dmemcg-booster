@@ -1,6 +1,1 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-dmemcg-booster
-```
+Nothing needs to be added to .gitignore since only a README.md file was modified and there are no build artifacts, dependencies, or temporary files in the changes.
